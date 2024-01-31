@@ -22,6 +22,7 @@
 		6BFC74F92B6A3CDF00FF0285 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BFC74EE2B6A3CDF00FF0285 /* OpenSans-BoldItalic.ttf */; };
 		6BFC74FB2B6A73B300FF0285 /* InstagramImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC74FA2B6A73B300FF0285 /* InstagramImageCell.swift */; };
 		6BFC74FD2B6A73E400FF0285 /* InstaImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC74FC2B6A73E400FF0285 /* InstaImageModel.swift */; };
+		6BFC74FF2B6A98EC00FF0285 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC74FE2B6A98EC00FF0285 /* ProfileViewController.swift */; };
 		C6BD57E72B2C938300FDB34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD57E62B2C938300FDB34A /* AppDelegate.swift */; };
 		C6BD57E92B2C938300FDB34A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD57E82B2C938300FDB34A /* SceneDelegate.swift */; };
 		C6BD57EB2B2C938300FDB34A /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD57EA2B2C938300FDB34A /* TodoViewController.swift */; };
@@ -49,6 +50,7 @@
 		6BFC74EE2B6A3CDF00FF0285 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		6BFC74FA2B6A73B300FF0285 /* InstagramImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramImageCell.swift; sourceTree = "<group>"; };
 		6BFC74FC2B6A73E400FF0285 /* InstaImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaImageModel.swift; sourceTree = "<group>"; };
+		6BFC74FE2B6A98EC00FF0285 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C6BD57E32B2C938300FDB34A /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BD57E62B2C938300FDB34A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6BD57E82B2C938300FDB34A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,13 +119,14 @@
 				C6FDE6362B2D903600FA1AB7 /* Model */,
 				C6FDE63C2B2D950300FA1AB7 /* Extensioin */,
 				C6BD57EC2B2C938300FDB34A /* Main.storyboard */,
-				C6BD57EF2B2C938400FDB34A /* Assets.xcassets */,
 				C6BD57F12B2C938400FDB34A /* LaunchScreen.storyboard */,
-				C6BD57F42B2C938400FDB34A /* Info.plist */,
 				6B02F2252B68FB95005B36BD /* HomeViewController.swift */,
 				6B02F2272B6A398E005B36BD /* ProfileDesignViewController.swift */,
-				6BFC74E32B6A3CDF00FF0285 /* open-sans */,
 				6BFC74FA2B6A73B300FF0285 /* InstagramImageCell.swift */,
+				C6BD57F42B2C938400FDB34A /* Info.plist */,
+				C6BD57EF2B2C938400FDB34A /* Assets.xcassets */,
+				6BFC74E32B6A3CDF00FF0285 /* open-sans */,
+				6BFC74FE2B6A98EC00FF0285 /* ProfileViewController.swift */,
 			);
 			path = TODO;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				C6FDE63E2B2D951200FA1AB7 /* String+extension.swift in Sources */,
 				C6BD57E92B2C938300FDB34A /* SceneDelegate.swift in Sources */,
 				6BFC74FB2B6A73B300FF0285 /* InstagramImageCell.swift in Sources */,
+				6BFC74FF2B6A98EC00FF0285 /* ProfileViewController.swift in Sources */,
 				C6FDE63B2B2D935600FA1AB7 /* TodoTableViewCell.swift in Sources */,
 				6BFC74FD2B6A73E400FF0285 /* InstaImageModel.swift in Sources */,
 				6B02F2262B68FB95005B36BD /* HomeViewController.swift in Sources */,

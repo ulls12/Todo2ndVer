@@ -26,6 +26,20 @@ class ProfileDesignViewController: UIViewController {
         
     }
     
+    @IBAction func profileTapped(_ sender: Any) {
+        // ProfileViewController 생성
+        let profileVC = ProfileViewController()
+        
+        // 데이터 설정 (예: 사용자 이름과 나이)
+        profileVC.userName = "르탄이"
+        profileVC.userAge = 30
+        
+        // 모달로 화면 표시
+        present(profileVC, animated: true, completion: nil)
+        
+    }
+    
+    
     func allDesign() {
         messageButtonDesign()
         followButtonDesign()
