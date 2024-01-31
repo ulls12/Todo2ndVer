@@ -96,7 +96,7 @@ extension TodoViewController: UITableViewDataSource {
     }
 }
 
-// UserDefaults 확장 - TodoList 저장 및 로드
+
 extension TodoViewController {
     private func saveTodoList() {
         let data = try? PropertyListEncoder().encode(todoList)

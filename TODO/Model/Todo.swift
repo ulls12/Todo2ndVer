@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Todo: Codable {
+struct Todo: Codable, Equatable {
     var id: Int
     var title: String
     var isCompleted: Bool
+//    var category: String
 }
